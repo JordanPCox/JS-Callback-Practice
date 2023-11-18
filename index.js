@@ -21,7 +21,7 @@ function handleDirectionChange(direction) {
     }
 }
 
-move(character).withArrowKeys(100, 250, handleDirectionChange)
+move(character).withArrowKeys(100, 250, handleDirectionChange, 1)
 
 
 let direction = null;
@@ -86,7 +86,7 @@ let y = 250;
 // })
 
 
-move(character).to(100, 250)
+move(character).to(100, 250, 1)
 
 
 move(newImage('assets/tree.png')).to(200, 450)
